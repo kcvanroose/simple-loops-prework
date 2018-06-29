@@ -25,8 +25,8 @@ def times_iterator(number_of_times)
 end
 
 def while_iterator(number_of_times)
-  phrase = "Welcome to Flatiron School's Web Development Course!"
   counter = 0
+  phrase = "Welcome to Flatiron School's Web Development Course!"
   while number_of_times < counter
     puts phrase
     counter += 1
@@ -46,5 +46,6 @@ def for_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
     number_of_times.each 
     puts phrase
+  end
 end
 
